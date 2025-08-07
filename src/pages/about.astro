@@ -1,63 +1,108 @@
 ---
-import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
-import Layout from '../layouts/BlogPost.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 ---
 
-<Layout
-	title="About Me"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('August 08 2021')}
-	heroImage={AboutHeroImage}
->
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-		labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo
-		viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam
-		adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus
-		et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-		vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque
-		sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
-	</p>
+<!doctype html>
+<html lang="en">
+    <head>
+        <BaseHead
+            title="About Me - Tomintech"
+            description="Learn about Ayotomiwa Oladotun, a Web3 growth strategist and python developer."
+        />
+        <style>
+            main {
+                width: 90%;
+                max-width: 800px;
+                margin: auto;
+                padding: 4rem 0;
+            }
+            .about-grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 4rem;
+            }
+            @media (min-width: 768px) {
+                .about-grid {
+                    grid-template-columns: 1fr 2fr;
+                }
+            }
+            .sidebar h2 {
+                font-size: 1.5rem;
+                border-bottom: 2px solid #f0f0f0;
+                padding-bottom: 0.5rem;
+                margin-bottom: 1rem;
+            }
+            .sidebar ul {
+                list-style: none;
+                padding: 0;
+            }
+            .sidebar li {
+                margin-bottom: 0.5rem;
+            }
+            .main-content h1 {
+                font-size: 3rem;
+                font-weight: 800;
+                margin-bottom: 0.5rem;
+            }
+            .main-content .tagline {
+                font-size: 1.2rem;
+                color: #4a5568;
+                margin-bottom: 2rem;
+            }
+            .main-content h2 {
+                font-size: 2rem;
+                margin-top: 3rem;
+                margin-bottom: 1.5rem;
+            }
+            .main-content p, .main-content li {
+                font-size: 1.1rem;
+                line-height: 1.7;
+            }
+            .cv-link {
+                 display: inline-block;
+                 margin-top: 1rem;
+                 padding: 0.75rem 1.5rem;
+                 border-radius: 8px;
+                 text-decoration: none;
+                 font-weight: 600;
+                 background-color: #2d3748;
+                 color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <Header />
+        <main>
+            <div class="about-grid">
+                <aside class="sidebar">
+                    <img src="/images/my pro picture.png" alt="Ayotomiwa Oladotun" style="width: 100%; border-radius: 50%; margin-bottom: 2rem;" />
+                    <h2>Key Competencies</h2>
+                    <ul>
+                        <li><strong>Blockchain and data:</strong> python, web3.py, SQL, on-chain nalysis</li>
+                        <li><strong>Strategy:</strong> content lifecycle, SEO audits, keyword research</li>
+                        <li><strong>Platforms:</strong> google analytics, ahrefs, n8n, webflow</li>
+                        <li><strong>Interpersonal:</strong> collaboration, storytelling, problem-solving</li>
+                    </ul>
+                     <a href="ayotomiwa crypto analyst.pdf" class="cv-link" download>Download Full CV</a>
+                </aside>
+                <section class="main-content">
+                    <h1>Ayotomiwa Oladotun</h1>
+                    <p class="tagline">Web3 marketer and python developer</p>
+                    
+                    <h2>From strategy to stack</h2>
+                    <p>It started with a simple thought: "How does this actually work?" That question took me from a 5-year career in content marketing deep into the engine room of technology. I wasn't satisfied just planning the strategy; I needed to build the tools that execute it.</p>
+                    <p>This curiosity led me to build my own smart contract monitoring dashboard from scratch, forcing me to master everything from Python listeners and Flask servers to dynamic frontends that bring live blockchain data to life. This wasn't a distraction; it was an upgrade. Understanding the technical architecture from the inside out has given me a level of insight into Web3 products that I never had before.</p>
 
-	<p>
-		Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non
-		tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non
-		blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna
-		porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis
-		massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-		Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis
-		bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra
-		massa massa ultricies mi.
-	</p>
+                    <h2>Building with AI and Automation</h2>
+                    <p>At the same time, I became obsessed with efficiency. This led me to the world of AI Agents and automation platforms like n8n, where I build practical tools to make systems smarter. From a YouTube script writer that pulls from trending topics to a Reddit ad generator that turns customer pain points into comic strips, I build systems that work for you.</p>
 
-	<p>
-		Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl
-		suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet
-		nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae
-		turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem
-		dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat
-		semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-		vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum
-		facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam
-		vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla
-		urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
-	</p>
-
-	<p>
-		Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper
-		viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc
-		scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur
-		gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus
-		pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-		blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id
-		cursus metus aliquam eleifend mi.
-	</p>
-
-	<p>
-		Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta
-		nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam
-		tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci
-		ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar
-		proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
-	</p>
-</Layout>
+                    <h2>What this means for you</h2>
+                    <p>I bridge the gap between strategy and execution. When you work with me, you get more than a marketer—you get a technical partner who understands how to build the solutions your growth depends on.</p>
+                </section>
+            </div>
+        </main>
+        <Footer />
+    </body>
+</html>

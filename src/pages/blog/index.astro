@@ -19,6 +19,8 @@ const posts = (await getCollection('blog')).sort(
 		<style>
 			main {
 				width: 960px;
+				margin: 0 auto;
+				padding: 2rem 0;
 			}
 			ul {
 				display: flex;
@@ -70,6 +72,9 @@ const posts = (await getCollection('blog')).sort(
 				box-shadow: var(--box-shadow);
 			}
 			@media (max-width: 720px) {
+				main {
+					width: 90%;
+				}
 				ul {
 					gap: 0.5em;
 				}
