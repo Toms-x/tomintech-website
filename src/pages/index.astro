@@ -154,6 +154,14 @@ try {
             .post-card h3 {
                 margin-bottom: 0.5rem;
             }
+			@media (min-width: 768px) {
+                .service-grid {
+                    grid-template-columns: repeat(3, 1fr);
+                }
+                 .post-grid {
+                    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+                }
+            }
         </style>
     </head>
     <body>
@@ -168,8 +176,8 @@ try {
                     Building the intelligent infrastructure behind growth—ML models that predict customer behavior, automation systems that act on insights, and dashboards that prove ROI.
                 </p>
                 <div class="cta-buttons">
-                    <a href="/services" class="button primary">Explore My Services</a>
-                    <a href="/blog" class="button secondary">Project Breakdowns</a>
+                    <a href="/services" class="button primary">Explore my services</a>
+                    <a href="/blog" class="button secondary">Project breakdowns</a>
                 </div>
             </section>
 
@@ -181,15 +189,15 @@ try {
                 <div class="service-grid">
                     <article class="service-card">
                         <h3>Content and growth systems</h3>
-                        <p>I develop data-driven content strategies that capture organic traffic worth thousands. By analyzing on-chain data and user behavior, I build content funnels that establish authority and drive conversions.</p>
+                        <p>I build growth engines, not just articles. My process starts with data including user analytics and on-chain activity to architect content funnels that earn trust and drive results.</p>
                     </article>
                     <article class="service-card">
                         <h3>Automation</h3>
-                        <p>Stop manual work; start scaling intelligently. I design and build custom automation workflows using Python and platforms like n8n to handle everything from content creation to lead management.</p>
+                        <p>I build custom automation workflows, often with Python and n8n, to handle systematic tasks. This isn't about replacing people, but about freeing up human creativity by letting the systems do what they do best.</p>
                     </article>
                     <article class="service-card">
-                        <h3>🛠️ Custom Web3 and data tools</h3>
-                        <p>Need a specific tool? I build it. From real-time on-chain monitoring dashboards with Flask and Web3.py to custom analytics solutions, I can create the technical tools your project needs to gain a competitive edge.</p>
+                        <h3>Custom Web3 and data tools</h3>
+                        <p>When a project has unique challenges, I build the solution. I develop custom dashboards, monitors, and analytics tools (Flask, Web3.py) to provide the precise insights needed to win.</p>
                     </article>
                 </div>
             </section>
@@ -198,7 +206,8 @@ try {
             <!-- FEATURED POSTS SECTION -->
             <!-- ====================================================== -->
             <section class="featured-posts">
-                <h2 class="section-title">The Lab is Open: From Theory to Practice</h2>
+                <h2 class="section-title">Build with me</h2>
+				<p> A look into my process, tools, and current explorations in code and content.</p>
                  <div class="post-grid">
                     {
                         featuredPosts.length > 0 ? (
