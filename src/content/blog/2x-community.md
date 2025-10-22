@@ -1,8 +1,154 @@
 ---
 title: 'What it took to 2x our community before and after token launch'
 description: 'Launching a token isn’t just about hype, it’s about building real value and sustainable momentum. Learn what it took my team and I to 2x our community.'
-pubDate: 'Apr 17 2025'
-heroImage: 'https://cdn.prod.website-files.com/668bc58fd794990dd4fcf8fd/6800e79c8f3988f8420f833f_3rd%20artilcle%20cover.jpg'
+pubDate: '2025-04-17'
+heroImage: '/images/blogs/community-growth-cover.jpg'
 ---
 
-<p id="">Launching a token isn’t just about hype, it’s about building real value and sustainable momentum. When we launched DOPE Token, we had limited resources, a tight schedule, and high expectations. But through focused strategies, community leverage, and relentless iteration, we scaled our company faster than we thought possible. Here’s how we did it, and what you can learn from our experience.</p><h2 id="">The pre-launch stage: laying the foundation</h2><p id="">If you’re familiar with crypto, you understand the market moves in cycles—bulls and bears. Sentiment tends to follow: optimism during a bull run, fear during a downturn. The Fear and Greed Index captures this perfectly.</p><p id="">We initially planned to launch earlier but held back after market research. Instead, we timed our token launch for a bull market. Still, to avoid attracting only hype-driven users (“paper hands”), we started building our waitlist and early community during the bear market. That’s when real builders and long-term believers pay the most attention.</p><p id="">To strengthen this early momentum, we collaborated with micro-influencers, Web3 YouTubers, and aligned projects already doing meaningful work.</p><p id="">One notable partnership was with BullPerks, a leading name in NFTs and gaming. Our approach to partnerships was simple: work with people who genuinely believed in what we were building, and vice versa. These weren’t just shoutouts; they were mutual integrations.</p><p id="">For each collab, we launched NFT Wars, a lightweight, interactive game where users could battle NFTs for real rewards. We created and distributed custom NFTs to partner communities, using the game as a fun, low-cost way to introduce them to a core app feature. It drove engagement, brought new users in, and gave them something worth sticking around for.</p><h2 id="">Incentives that worked</h2><p id="">We didn’t just aim for numbers, we wanted active users inside the app. So instead of vague “engagement tactics,” we went straight for what converts:</p><ul id=""><li id="">NFT rewards</li><li id="">Trading bonuses</li><li id="">In-app daily points</li><li id="">Cash incentives</li></ul><p id="">Each one drove traffic and usage.</p><p id="">To keep hype sustainable, we avoided overpromising. We encouraged users to talk about the token, invite their friends, and earn rewards for being active. We made sure everyone felt involved, because we treated them like part of the team.</p><p id="">We also set up a feedback system where users could suggest ideas and help improve the app. This made people feel like they had a real say in what we were building.</p><p id="">And we didn’t use the same approach for every platform. Twitter had its own strategy, likewise Telegram, and Discord had a different style. Each channel was handled differently based on what worked best there.</p><h3 id="">X (Twitter)</h3><p id=""><strong id="">Goal:</strong> Maximize visibility, engagement, and followers.</p><p id="">1. Follow + retweet contests</p><ul id=""><li id="">Ran weekly NFT based games</li><li id="">Follow + RT + tag 3 friends to win [NFT/token/access/merch].”</li></ul><p id="">2. NFT or token tewards for engagement</p><ul id=""><li id="">Tracked users who consistently like, comment, or retweet.</li><li id="">Dropped small rewards or whitelist spots for active followers.</li></ul><p id="">3. Leaderboard for top ambassadors</p><ul id=""><li id="">Used tools like Crew3</li><li id="">Ranked users who bring referrals or engagement.</li></ul><p id="">4. Engage-to-earn campaigns</p><ul id=""><li id="">Rewarded authentic engagements like tweets (memes, threads, art) with tokens or WL.</li></ul><h3 id="">Telegram</h3><p id=""><strong id="">Goal:</strong> Boost group size, conversation, and retention.</p><p id="">1. Referral-based invite campaigns</p><ul id=""><li id="">Used Combot bots to track invites.</li></ul><p id="">2. Verified contributor role</p><ul id=""><li id="">Assign “Ambassador” roles with benefits such as early info</li><li id="">Reward users who answer questions, bring clarity, or post useful stuff.</li></ul><p id="">3. AMA Incentives</p><ul id=""><li id="">Announced token rewards for best AMA questions.</li><li id="">Founder </li><li id="">Posted AMA recaps on X for cross-channel growth.</li></ul><h3 id="">Discord </h3><p id=""><strong id="">Goal:</strong> Build loyal, engaged sub-community with clear hierarchies.</p><p id="">1. Level-based rewards using Arcane</p><ul id=""><li id="">Created levels based on message activity.</li><li id="">Rewarded certain levels NFT, early access to features.</li></ul><p id="">2. Invite challenges</p><ul id=""><li id="">Used Invite Tracker bot.</li><li id="">Ran monthly “Top 10 inviters” campaign.</li></ul><p id="">3. Creative contests</p><ul id=""><li id="">Memes, fan art, lore-writing — judged by community or team.</li><li id="">Token/NFT reward + role/tag boost.</li></ul><p id="">One viral moment was the tweet made about a new feature launched which gathers data from transaction volumes, historical price movements, and on-chain activities of various cryptocurrencies. The data is then combined with AI modeling that takes into account internal user interactions, external web3 engagement, and data from external web2 social platforms. the official <a href="https://x.com/myDopamineApp/status/1788903479861215437" id="">tweet</a> went viral with over 30k retweets and 16k like</p><h2 id="">Post-launch momentum – turning hype into Retention</h2><p id="">Once the token launched, the real work began. Hype can spike your numbers overnight, but retention is what proves you’ve built something real.</p><p id="">In the first 7–30 days, our focus was simple: keep people engaged, informed, and invested in our ecosystem. We rolled out a phased onboarding campaign that guided new token holders through everything – from wallet setup to staking options, governance participation, and how to earn through contribution.</p><p id="">We partnered with CEXs like Bitget for token staking. Onboarding was smooth—automated Twitter threads, Telegram bots, short video explainers. We even made it fun with XP-based Discord roles that rewarded users for learning and contributing.</p><h2 id="">What worked best marketing-wise</h2><ul id=""><li id="">Twitter Spaces twice a week with devs and community heads.</li><li id="">Cross-community partnerships where we airdropped tokens to aligned audiences.</li><li id="">Referral codes with a time-limited leaderboard (top referrers got exclusive NFT perks).</li><li id="">Email sequences that walked users through token utility, milestones, and upcoming roadmap items.</li></ul><p id="">We also focused heavily on transparency. Weekly updates, a public roadmap, and AMAs made holders feel like insiders. That built trust, which in turn fueled long-term holding and community evangelism.</p><h2 id="">Key KPIs we tracked</h2><ul id=""><li id="">Daily Active Wallets: grew from ~1,200 to 5,800+ within the first month</li><li id="">Token Holder Retention (7-day): over 64%</li><li id="">New app users and the countries they are joining from</li><li id="">Most visited and used features in the app</li><li id="">Discord engagement: 200% increase in replies and reactions</li><li id="">WebsiteSite traffic: 3x spike within 3 weeks post-launch, mainly organic</li></ul><h2 id="">Lessons learned + advice to other founders</h2><p id=""><strong id="">What I’d do differently:</strong> I would’ve kickstarted our content engine much earlier. A blog + email + YouTube combo could’ve told our story better and built solid SEO before launch. We leaned too hard on social hype.</p><p id="">Also, we overestimated how clearly users understood the incentive system. Some mistook in-app points for real money, expecting major airdrops. Clearer communication upfront would’ve saved us from confusion and multiple AMAs to clarify things.</p><p>‍<strong id="">Two thing we nailed:</strong> </p><p>We applied grassroot strategies and showed up where people actually hang out; Twitter, Telegram, Discord, with tailored experiences. Most projects fail because they just spam the same message on every platform. We didn’t. </p><p>Also, we used &nbsp;explainer videos, bots, and Twitter threads to onboard new users made adoption feel smooth and scalable. In Web3, where people are used to clunky flows, that’s a major win.</p><h3 id=""><strong id="">Advice to founders launching in 2025</strong></h3><ul id=""><li id="">Build utility, not just a story. Hype will fade—value won’t.</li><li id="">Involve your community in the roadmap. Use governance polls or Discord votes. Give them skin in the game.</li><li id="">Get crystal clear on tokenomics. Overcomplicating it will turn people off. Simplicity = trust.</li><li id="">Don’t launch without onboarding content. If users can’t figure out what to do after buying, you’ve lost them.</li><li id="">Avoid the FOMO trap. You don’t need everyone – you just need the right 1,000 who’ll evangelize for you.</li></ul><h2 id="">Summary of what helped us scale x2</h2><ul id=""><li id="">Run weekly AMAs or Twitter Spaces</li><li id="">Create a token onboarding funnel (video, blog, or bot-based)</li><li id="">Launch a community leaderboard or XP system</li><li id="">Airdrop rewards tied to contribution, not just wallet address</li><li id="">Post roadmap updates weekly or bi-weekly</li><li id="">Use Discord/TG bots to automate tasks and keep engagement high</li><li id="">Build feedback loops - surveys, polls, governance votes</li><li id="">Collaborate with aligned projects for co-marketing and airdrops</li></ul><h2 id="">If you found this useful:</h2><p id="">+ Follow me on <a href="https://x.com/tomint3ch" id="">X</a> or <a href="https://www.linkedin.com/in/ayotomiwa-oladotun-84b278132" id="">LinkedIn</a> for more breakdowns like this</p><p id="">+ Join our <a href="https://t.me/tomint3ch" id="">community</a> of smart marketers</p><p id="">+ Subscribe to the newsletter for early insights</p><p id="">+ DM me if you’re working on a launch, happy to chat</p><p id="">‍</p>
+Launching a token isn’t just about hype, it’s about building real value and sustainable momentum. When we launched DOPE Token, we had limited resources, a tight schedule, and high expectations. But through focused strategies, community leverage, and relentless iteration, we scaled our company faster than we thought possible. Here’s how we did it, and what you can learn from our experience.
+
+## The pre-launch stage: laying the foundation
+
+If you’re familiar with crypto, you understand the market moves in cycles—bulls and bears. Sentiment tends to follow: optimism during a bull run, fear during a downturn. The Fear and Greed Index captures this perfectly.
+
+We initially planned to launch earlier but held back after market research. Instead, we timed our token launch for a bull market. Still, to avoid attracting only hype-driven users (“paper hands”), we started building our waitlist and early community during the bear market. That’s when real builders and long-term believers pay the most attention.
+
+To strengthen this early momentum, we collaborated with micro-influencers, Web3 YouTubers, and aligned projects already doing meaningful work.
+
+One notable partnership was with BullPerks, a leading name in NFTs and gaming. Our approach to partnerships was simple: work with people who genuinely believed in what we were building, and vice versa. These weren’t just shoutouts; they were mutual integrations.
+
+For each collab, we launched NFT Wars, a lightweight, interactive game where users could battle NFTs for real rewards. We created and distributed custom NFTs to partner communities, using the game as a fun, low-cost way to introduce them to a core app feature. It drove engagement, brought new users in, and gave them something worth sticking around for.
+
+## Incentives that worked
+
+We didn’t just aim for numbers, we wanted active users inside the app. So instead of vague “engagement tactics,” we went straight for what converts:
+
+* NFT rewards
+* Trading bonuses
+* In-app daily points
+* Cash incentives
+
+Each one drove traffic and usage.
+
+To keep hype sustainable, we avoided overpromising. We encouraged users to talk about the token, invite their friends, and earn rewards for being active. We made sure everyone felt involved, because we treated them like part of the team.
+
+We also set up a feedback system where users could suggest ideas and help improve the app. This made people feel like they had a real say in what we were building.
+
+And we didn’t use the same approach for every platform. Twitter had its own strategy, likewise Telegram, and Discord had a different style. Each channel was handled differently based on what worked best there.
+
+### X (Twitter)
+
+**Goal:** Maximize visibility, engagement, and followers.
+
+1.  Follow + retweet contests
+    * Ran weekly NFT based games
+    * "Follow + RT + tag 3 friends to win [NFT/token/access/merch]."
+
+2.  NFT or token tewards for engagement
+    * Tracked users who consistently like, comment, or retweet.
+    * Dropped small rewards or whitelist spots for active followers.
+
+3.  Leaderboard for top ambassadors
+    * Used tools like Crew3
+    * Ranked users who bring referrals or engagement.
+
+4.  Engage-to-earn campaigns
+    * Rewarded authentic engagements like tweets (memes, threads, art) with tokens or WL.
+
+### Telegram
+
+**Goal:** Boost group size, conversation, and retention.
+
+1.  Referral-based invite campaigns
+    * Used Combot bots to track invites.
+
+2.  Verified contributor role
+    * Assign “Ambassador” roles with benefits such as early info
+    * Reward users who answer questions, bring clarity, or post useful stuff.
+
+3.  AMA Incentives
+    * Announced token rewards for best AMA questions.
+    * Founder
+    * Posted AMA recaps on X for cross-channel growth.
+
+### Discord
+
+**Goal:** Build loyal, engaged sub-community with clear hierarchies.
+
+1.  Level-based rewards using Arcane
+    * Created levels based on message activity.
+    * Rewarded certain levels NFT, early access to features.
+
+2.  Invite challenges
+    * Used Invite Tracker bot.
+    * Ran monthly “Top 10 inviters” campaign.
+
+3.  Creative contests
+    * Memes, fan art, lore-writing — judged by community or team.
+    * Token/NFT reward + role/tag boost.
+
+One viral moment was the tweet made about a new feature launched which gathers data from transaction volumes, historical price movements, and on-chain activities of various cryptocurrencies. The data is then combined with AI modeling that takes into account internal user interactions, external web3 engagement, and data from external web2 social platforms. The official [tweet](https://x.com/myDopamineApp/status/1788903479861215437) went viral with over 30k retweets and 16k like
+
+## Post-launch momentum – turning hype into Retention
+
+Once the token launched, the real work began. Hype can spike your numbers overnight, but retention is what proves you’ve built something real.
+
+In the first 7–30 days, our focus was simple: keep people engaged, informed, and invested in our ecosystem. We rolled out a phased onboarding campaign that guided new token holders through everything – from wallet setup to staking options, governance participation, and how to earn through contribution.
+
+We partnered with CEXs like Bitget for token staking. Onboarding was smooth—automated Twitter threads, Telegram bots, short video explainers. We even made it fun with XP-based Discord roles that rewarded users for learning and contributing.
+
+## What worked best marketing-wise
+
+* Twitter Spaces twice a week with devs and community heads.
+* Cross-community partnerships where we airdropped tokens to aligned audiences.
+* Referral codes with a time-limited leaderboard (top referrers got exclusive NFT perks).
+* Email sequences that walked users through token utility, milestones, and upcoming roadmap items.
+
+We also focused heavily on transparency. Weekly updates, a public roadmap, and AMAs made holders feel like insiders. That built trust, which in turn fueled long-term holding and community evangelism.
+
+## Key KPIs we tracked
+
+* Daily Active Wallets: grew from ~1,200 to 5,800+ within the first month
+* Token Holder Retention (7-day): over 64%
+* New app users and the countries they are joining from
+* Most visited and used features in the app
+* Discord engagement: 200% increase in replies and reactions
+* WebsiteSite traffic: 3x spike within 3 weeks post-launch, mainly organic
+
+## Lessons learned + advice to other founders
+
+**What I’d do differently:** I would’ve kickstarted our content engine much earlier. A blog + email + YouTube combo could’ve told our story better and built solid SEO before launch. We leaned too hard on social hype.
+
+Also, we overestimated how clearly users understood the incentive system. Some mistook in-app points for real money, expecting major airdrops. Clearer communication upfront would’ve saved us from confusion and multiple AMAs to clarify things.
+
+**Two thing we nailed:**
+
+We applied grassroot strategies and showed up where people actually hang out; Twitter, Telegram, Discord, with tailored experiences. Most projects fail because they just spam the same message on every platform. We didn’t.
+
+Also, we used explainer videos, bots, and Twitter threads to onboard new users made adoption feel smooth and scalable. In Web3, where people are used to clunky flows, that’s a major win.
+
+### Advice to founders launching in 2025
+
+* Build utility, not just a story. Hype will fade—value won’t.
+* Involve your community in the roadmap. Use governance polls or Discord votes. Give them skin in the game.
+* Get crystal clear on tokenomics. Overcomplicating it will turn people off. Simplicity = trust.
+* Don’t launch without onboarding content. If users can’t figure out what to do after buying, you’ve lost them.
+* Avoid the FOMO trap. You don’t need everyone – you just need the right 1,000 who’ll evangelize for you.
+
+## Summary of what helped us scale x2
+
+* Run weekly AMAs or Twitter Spaces
+* Create a token onboarding funnel (video, blog, or bot-based)
+* Launch a community leaderboard or XP system
+* Airdrop rewards tied to contribution, not just wallet address
+* Post roadmap updates weekly or bi-weekly
+* Use Discord/TG bots to automate tasks and keep engagement high
+* Build feedback loops - surveys, polls, governance votes
+* Collaborate with aligned projects for co-marketing and airdrops
+
+## If you found this useful:
+
++ Follow me on [X](https://x.com/tomint3ch) or [LinkedIn](https://www.linkedin.com/in/ayotomiwa-oladotun-84b278132) for more breakdowns like this
++ Join our [community](https://t.me/tomint3ch) of smart marketers
++ Subscribe to the newsletter for early insights
++ DM me if you’re working on a launch, happy to chat

@@ -1,108 +1,65 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+import Layout from '../layouts/Layout.astro';
 ---
+<Layout title="About Me - Tomintech">
+    <main class="max-w-6xl mx-auto px-6 py-16 md:py-24">
+        <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-16">
+            
+            <aside class="lg:col-span-1 mb-12 lg:mb-0">
+                <img src="/images/my pro picture.png" alt="Ayotomiwa Oladotun" class="w-48 h-48 rounded-full mx-auto lg:mx-0 mb-8" />
+                
+                <h2 class="text-2xl font-bold text-slate-100 mb-4">Core Competencies</h2>
+                <ul class="space-y-3 text-slate-300">
+                    <li class="flex items-start gap-2">
+                        <span class="text-blue-400 mt-1">✓</span>
+                        <span><strong>AI & Automation:</strong> n8n (Expert), Python, OpenAI API, Webhooks</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-blue-400 mt-1">✓</span>
+                        <span><strong>Data Science & ML:</strong> Python (Pandas, Scikit-learn, TensorFlow), SQL</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-blue-400 mt-1">✓</span>
+                        <span><strong>Growth Strategy:</strong> User Behavior Analysis, Personalization, Experimentation</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-blue-400 mt-1">✓</span>
+                        <span><strong>Web3 & Blockchain:</strong> On-chain Data Analysis, Web3.py, Smart Contracts</span>
+                    </li>
+                </ul>
+                
+                <a href="ayotomiwa crypto analyst.pdf" class="inline-block mt-8 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors w-full text-center" download>
+                    Download Full CV
+                </a>
+            </aside>
 
-<!doctype html>
-<html lang="en">
-    <head>
-        <BaseHead
-            title="About Me - Tomintech"
-            description="Learn about Ayotomiwa Oladotun, a Web3 growth strategist and python developer."
-        />
-        <style>
-            main {
-                width: 90%;
-                max-width: 800px;
-                margin: auto;
-                padding: 4rem 0;
-            }
-            .about-grid {
-                display: grid;
-                grid-template-columns: 1fr;
-                gap: 4rem;
-            }
-            @media (min-width: 768px) {
-                .about-grid {
-                    grid-template-columns: 1fr 2fr;
-                }
-            }
-            .sidebar h2 {
-                font-size: 1.5rem;
-                border-bottom: 2px solid #f0f0f0;
-                padding-bottom: 0.5rem;
-                margin-bottom: 1rem;
-            }
-            .sidebar ul {
-                list-style: none;
-                padding: 0;
-            }
-            .sidebar li {
-                margin-bottom: 0.5rem;
-            }
-            .main-content h1 {
-                font-size: 3rem;
-                font-weight: 800;
-                margin-bottom: 0.5rem;
-            }
-            .main-content .tagline {
-                font-size: 1.2rem;
-                color: #4a5568;
-                margin-bottom: 2rem;
-            }
-            .main-content h2 {
-                font-size: 2rem;
-                margin-top: 3rem;
-                margin-bottom: 1.5rem;
-            }
-            .main-content p, .main-content li {
-                font-size: 1.1rem;
-                line-height: 1.7;
-            }
-            .cv-link {
-                 display: inline-block;
-                 margin-top: 1rem;
-                 padding: 0.75rem 1.5rem;
-                 border-radius: 8px;
-                 text-decoration: none;
-                 font-weight: 600;
-                 background-color: #2d3748;
-                 color: white;
-            }
-        </style>
-    </head>
-    <body>
-        <Header />
-        <main>
-            <div class="about-grid">
-                <aside class="sidebar">
-                    <img src="/images/my pro picture.png" alt="Ayotomiwa Oladotun" style="width: 100%; border-radius: 50%; margin-bottom: 2rem;" />
-                    <h2>Key Competencies</h2>
-                    <ul>
-                        <li><strong>Blockchain and data:</strong> python, web3.py, SQL, on-chain nalysis</li>
-                        <li><strong>Strategy:</strong> content lifecycle, SEO audits, keyword research</li>
-                        <li><strong>Platforms:</strong> google analytics, ahrefs, n8n, webflow</li>
-                        <li><strong>Interpersonal:</strong> collaboration, storytelling, problem-solving</li>
-                    </ul>
-                     <a href="ayotomiwa crypto analyst.pdf" class="cv-link" download>Download Full CV</a>
-                </aside>
-                <section class="main-content">
-                    <h1>Ayotomiwa Oladotun</h1>
-                    <p class="tagline">Web3 marketer and python developer</p>
+            <section class="lg:col-span-2">
+                <h1 class="text-5xl font-bold text-slate-100">Ayotomiwa Oladotun</h1>
+                <p class="text-2xl text-blue-400 mt-2 mb-8 font-semibold">Data Scientist & Automation Specialist</p>
+                
+                <div class="prose prose-invert prose-lg text-justify">
+                    <h2>From marketing to models</h2>
+                    <p>My career began in content marketing. I was good at planning growth strategies, but I quickly realized that planning wasn't enough. I wanted to build, test, and own the "backend of marketing" itself. I couldn't just *suggest* a strategy; I needed to be able to *build* the system that would execute it.</p>
+
+                    <h2>The insight</h2>
+                    <p>This curiosity led me down a path of deep technical learning. I figured I couldn't truly build effective growth systems without understanding user behavior on a data-driven level. How could I build a system to engage users if I didn't know *why* they engaged in the first place? This insight became my new focus.</p>
+
+                    <h2>My work today</h2>
+                    <p>My work now stands on two pillars that directly answer that challenge:</p>
                     
-                    <h2>From strategy to stack</h2>
-                    <p>It started with a simple thought: "How does this actually work?" That question took me from a 5-year career in content marketing deep into the engine room of technology. I wasn't satisfied just planning the strategy; I needed to build the tools that execute it.</p>
-                    <p>This curiosity led me to build my own smart contract monitoring dashboard from scratch, forcing me to master everything from Python listeners and Flask servers to dynamic frontends that bring live blockchain data to life. This wasn't a distraction; it was an upgrade. Understanding the technical architecture from the inside out has given me a level of insight into Web3 products that I never had before.</p>
-
-                    <h2>Building with AI and Automation</h2>
-                    <p>At the same time, I became obsessed with efficiency. This led me to the world of AI Agents and automation platforms like n8n, where I build practical tools to make systems smarter. From a YouTube script writer that pulls from trending topics to a Reddit ad generator that turns customer pain points into comic strips, I build systems that work for you.</p>
+                    <ol>
+                        <li>
+                            <strong>Understanding Behavior (Machine Learning):</strong> I build machine learning models to analyze user behavior, find patterns, and predict needs. This is the "why." My projects in this area range from predictive price models to user segmentation and rarity analyzers.
+                        </li>
+                        <li>
+                            <strong>Automating Engagement (AI & Workflows):</strong> Once we have the "why," I build the "how." I am an expert in automation platforms like n8n, using AI to build intelligent, end-to-end systems that deliver personalized engagement at scale, all while maximizing efficiency.
+                        </li>
+                    </ol>
 
                     <h2>What this means for you</h2>
-                    <p>I bridge the gap between strategy and execution. When you work with me, you get more than a marketer—you get a technical partner who understands how to build the solutions your growth depends on.</p>
-                </section>
-            </div>
-        </main>
-        <Footer />
-    </body>
-</html>
+                    <p>I am the bridge between the growth team and the engineering team. I don't just analyze data and present a report; I build the automated workflow that acts on it. I don't just suggest a personalization strategy; I build the machine learning model that powers it. I turn growth ideas into working, data-driven systems.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+</Layout>

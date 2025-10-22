@@ -1,0 +1,33 @@
+---
+// src/components/Hero.astro
+---
+<section class="relative overflow-hidden">
+    <div class="absolute inset-0 z-0">
+        <img 
+            src="/images/hero-visualizer.png" 
+            alt="Abstract data visualization background" 
+            class="w-full h-full object-cover"
+        />
+        <div class="absolute inset-0 bg-slate-900/70 backdrop-blur-sm"></div>
+    </div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-10 py-32 md:py-40">
+        <div class="max-w-3xl">
+            <h1 class="text-5xl md:text-7xl font-bold text-slate-100">
+                Data Scientist & Automation Specialist
+            </h1>
+            <p class="mt-6 text-lg text-slate-200 max-w-2xl">
+                I bridge the gap between marketing strategy and data-driven insights, building automated workflows and machine learning models that deliver real-world results.
+            </p>
+
+            <div class="mt-10 flex flex-col sm:flex-row gap-4">
+                <a href="#projects" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors">
+                    Explore My Work
+                </a>
+                <a href="https://www.linkedin.com/in/ayotomiwa-oladotun-84b278132" target="_blank" class="border border-slate-600 hover:bg-slate-800 text-slate-200 font-semibold px-8 py-3 rounded-lg transition-colors">
+                    Connect on LinkedIn
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,91 +1,22 @@
 ---
-import { SITE_TITLE } from '../consts';
-import HeaderLink from './HeaderLink.astro';
+// src/components/Header.astro
 ---
+<header class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <nav class="flex items-center justify-between">
+        <a href="/" class="text-2xl font-bold font-heading text-slate-100">tomintech</a>
+        
+        <div class="hidden md:flex items-center gap-8">
+            <a href="#projects" class="text-slate-300 hover:text-white transition-colors">Projects</a>
+            <a href="#articles" class="text-slate-300 hover:text-white transition-colors">Writing</a>
+            <a href="/about" class="text-slate-300 hover:text-white transition-colors">About</a>
+            <a href="/contact" class="text-slate-300 hover:text-white transition-colors">Contact</a>
+        </div>
 
-<header>
-    <nav>
-        <a href="/">
-          <img src="/images/tomintech logo.png" alt="Tomintech Logo" width="150" />
+        <a href="/ayotomiwa crypto analyst.pdf" target="_blank" class="hidden md:inline-block border border-slate-600 hover:bg-slate-800 text-slate-200 font-semibold px-5 py-2 rounded-lg transition-colors">
+            View Resume
         </a>
 
-        <div class="internal-links">
-            <HeaderLink href="/">Home</HeaderLink>
-            <HeaderLink href="/blog">Blog</HeaderLink>
-            <HeaderLink href="/about">About</HeaderLink>
-        </div>
-
-        <div class="social-links">
-            {/* Example for LinkedIn */}
-            <a href="https://www.linkedin.com/in/ayotomiwa-oladotun-84b278132" target="_blank">
-                <span class="sr-only">Follow on LinkedIn</span>
-                <img src="/images/linkedin.svg" alt="LinkedIn" width="24" height="24" />
-            </a>
-            <a href="https://x.com/tomintch" target="_blank">
-                <span class="sr-only">Follow on Twitter</span>
-                <img src="/images/x.svg" alt="Twitter" width="24" height="24" />
-            </a>
-            {/* Example for GitHub */}
-            <a href="https://github.com/toms-x" target="_blank">
-                <span class="sr-only">Go to GitHub repo</span>
-                <img src="/images/github.svg" alt="GitHub" width="24" height="24" />
-            </a>
-        </div>
+        <div class="md:hidden">
+            </div>
     </nav>
 </header>
-<style>
-    header {
-        margin: 0;
-        padding: 0 1em;
-        background: white;
-        box-shadow: 0 2px 8px rgba(var(--black), 5%);
-    }
-    
-    /* This targets your logo image specifically */
-    header > nav > a > img {
-        height: 32px; /* Set a fixed height for the logo */
-        width: auto; /* Allow width to adjust automatically */
-    }
-
-    h2 {
-        margin: 0;
-        font-size: 1em;
-    }
-
-    h2 a,
-    h2 a.active {
-        text-decoration: none;
-    }
-    nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    nav a {
-        padding: 1em 0.5em;
-        color: var(--black);
-        border-bottom: 4px solid transparent;
-        text-decoration: none;
-    }
-    nav a.active {
-        text-decoration: none;
-        border-bottom-color: var(--accent);
-    }
-    .social-links,
-    .social-links a {
-        display: flex;
-        align-items: center; /* Vertically aligns the icons */
-        gap: 0.75rem; /* Adds space between icons */
-    }
-    .social-links img {
-        transition: transform 0.2s ease;
-    }
-    .social-links a:hover img {
-        transform: scale(1.1); /* Slightly enlarges icon on hover */
-    }
-    @media (max-width: 720px) {
-        .social-links {
-            display: none;
-        }
-    }
-</style>

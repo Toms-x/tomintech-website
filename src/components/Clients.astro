@@ -1,0 +1,28 @@
+---
+// src/components/Clients.astro
+const logos = [
+  { name: 'Beincrypto', src: '/images/logos/beincrypto.svg' },
+  { name: 'LBank', src: '/images/logos/lbank.svg' },
+  { name: 'Doapmine App', src: '/images/logos/dopamine_app.png' },
+  { name: 'Crypto detail', src: '/images/logos/cryptodetail.svg' },
+  { name: 'Mina', src: '/images/logos/mina.svg' },
+  { name: 'Fiverr', src: '/images/logos/fiverr.svg' },
+  { name: 'Upwork', src: '/images/logos/upwork.svg' },
+  { name: 'CryptoNews', src: '/images/logos/cryptonews.svg' },
+  { name: 'Liquity', src: '/images/logos/liquity.svg' },
+];
+---
+<section class="py-16">
+  <div class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+    <ul class="flex items-center justify-center md:justify-start list-none [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+      {logos.map(logo => (
+        <li><img src={logo.src} alt={logo.name} class="h-8 grayscale opacity-60" /></li>
+      ))}
+    </ul>
+    <ul class="flex items-center justify-center md:justify-start list-none [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
+      {logos.map(logo => (
+        <li><img src={logo.src} alt={logo.name} class="h-8 grayscale opacity-60" /></li>
+      ))}
+    </ul>
+  </div>
+</section>

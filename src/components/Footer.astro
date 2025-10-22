@@ -1,51 +1,11 @@
 ---
+// src/components/Footer.astro
 const today = new Date();
 ---
-
-<footer>
-    &copy; {today.getFullYear()} tomintech.
-    
-    <div class="social-links">
-        <a href="https://www.linkedin.com/in/ayotomiwa-oladotun-84b278132" target="_blank">
-            <span class="sr-only">Follow on LinkedIn</span>
-            <img src="/images/linkedin.svg" alt="LinkedIn" width="24" height="24" />
-        </a>
-        {/* Example for Twitter/X */}
-        <a href="https://x.com/tomintch" target="_blank">
-            <span class="sr-only">Follow on Twitter</span>
-            <img src="/images/x.svg" alt="Twitter" width="24" height="24" />
-        </a>
-        {/* Example for GitHub */}
-        <a href="https://github.com/toms-x" target="_blank">
-            <span class="sr-only">Go to GitHub repo</span>
-            <img src="/images/github.svg" alt="GitHub" width="24" height="24" />
-        </a>
+<footer class="text-center py-8 border-t border-slate-800">
+    <div class="flex justify-center gap-6 mb-4">
+        <a href="https://github.com/your-username" target="_blank" class="text-slate-400 hover:text-white">GitHub</a>
+        <a href="https://linkedin.com/in/your-profile" target="_blank" class="text-slate-400 hover:text-white">LinkedIn</a>
     </div>
+    <p class="text-slate-500">&copy; {today.getFullYear()} tomintech. All rights reserved.</p>
 </footer>
-<style>
-    footer {
-        padding: 2em 1em 4em 1em;
-        background: linear-gradient(var(--gray-gradient)) no-repeat;
-        color: rgb(var(--gray));
-        text-align: center;
-    }
-    .social-links {
-        display: flex;
-        justify-content: center;
-        gap: 1.5em;
-        margin-top: 1.5em;
-    }
-    .social-links a {
-        text-decoration: none;
-        color: rgb(var(--gray));
-    }
-	
-    .social-links img {
-        transition: transform 0.2s ease, opacity 0.2s ease;
-        opacity: 0.7;
-    }
-    .social-links a:hover img {
-        opacity: 1;
-        transform: scale(1.1);
-    }
-</style>

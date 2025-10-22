@@ -1,8 +1,81 @@
 ---
 title: 'AI-powered reddit lead generation and ad creation'
 description: 'I created a that workflow automates the entire process of finding targeted leads on Reddit and turning their exact pain points into ready-to-use marketing assets.'
-pubDate: 'Jul 14 2025'
-heroImage: 'https://cdn.prod.website-files.com/668bc58fd794990dd4fcf8fd/686c18cd9bc6a57bae2ccd75_reddit%20ad%20blog%20cover.jpg'
+pubDate: '2025-07-14'
+heroImage: '/images/blogs/reddit-ad-blog-cover.png'
 ---
 
-<p id="">I was scrolling through X the other day and stumbled upon a fascinating post about a new way for companies to find leads on Reddit. It described an automated workflow where a business simply provides a <strong id="">product description</strong>, and the system intelligently scours Reddit to find users discussing relevant <strong id="">pain points</strong> and frustrations. By pinpointing these conversations, the tool allows companies to bypass cold outreach and instead engage directly with potential customers who are already describing the exact problems their product solves, essentially serving up a list of highly qualified leads ready to be converted.</p><p id="">To be fair, this sounds like a practical solution to a genuine problem. It's no secret that lead generation is a major headache for marketers, in fact, over <a href="https://blog.hubspot.com/marketing/lead-generation-tools" id="">61% say</a> it's their biggest challenge. Think about the countless hours wasted on manual research that yields little to no results. Meanwhile, your ideal customers are already gathered on Reddit, a massive community of over <a href="https://www.statista.com/statistics/1453133/reddit-quarterly-dau-by-online-status/" id="">108 million daily active users</a>, talking about the very problems you can solve.</p><p id="">That's why I built this AI workflow to change everything.</p><h2 id=""><strong id="">How the complete workflow works</strong></h2><p id="">This <a href="https://github.com/Toms-x/automation-projects/tree/main/reddit-ad">workflow</a> is a multi-step pipeline that uses AI to automate market research, copywriting, and creative direction.</p><figure class="w-richtext-figure-type-image w-richtext-align-center" data-rt-type="image" data-rt-align="center"><div><img src="https://cdn.prod.website-files.com/668bc58fd794990dd4fcf8fd/686c202dced6dc325b4ccc94_AD_4nXecrPmRs7qpVocpzNcYl82cSoifyU4ip3dCYO-daEYl-sYNXmfEV6XP6EDfiQIopgre5o1olA2CTfIHktrEj5WRjaYC7WiCvyjZuDQRI0Ajq3lFXOGs7kOZXo-0a8zDVC1Ry1uJ.png" width="auto" height="auto" alt="" loading="auto" id=""></div><figcaption>reddit-powered ad generator</figcaption></figure><p>‍</p><ol id=""><li><strong id="">Input and keyword extraction</strong>: The process starts when you submit a simple form with your brand name, website, and product description. An AI model analyzes the description to extract a core <strong id="">"pain point" keyword</strong> (1-3 words) that a potential customer might use on Reddit.</li><li><strong id="">Reddit research and filtering</strong>: The workflow uses this keyword to <strong id="">search all of Reddit</strong> for relevant posts. It then filters these results, keeping only discussions that have meaningful engagement (more than 2 upvotes) and actual text content.</li><li><strong id="">AI relevance classification</strong>: Each filtered post is passed to a second AI agent. This agent reads the post in the context of your product and determines if it's a genuinely relevant conversation where a customer is expressing a need your product can solve.</li><li><strong id="">Ad angle generation</strong>: All the verified, relevant Reddit posts are aggregated into a single list. A "copywriter" AI then reads this list of real-world frustrations and generates <strong id="">10 unique, punchy marketing messages</strong> or ad angles that frame your product as the solution.</li><li><strong id="">Creative direction</strong>: The best ad angles are then sent to a "creative director" AI. This agent's job is to write detailed prompts for an image generator, describing a <strong id="">4-panel comic strip</strong> that visually tells the story of the customer's pain point and the product's solution.</li><li><strong id="">Image generation and storage</strong>: Finally, the workflow loops through each comic strip prompt, sending it to <strong id="">DALL-E 3 to generate the image</strong>. The final 4-panel comic ad is then automatically saved to a designated folder in your Google Drive.</li></ol><h2 id=""><strong id="">My real-world test - ‘bitcoin’ results</strong></h2><p id="">I tested my workflow with Web3/Bitcoin keywords focusing on "crypto confusion" and "Bitcoin basics." The AI found dozens of Reddit posts where people expressed frustration with:</p><ul id=""><li>Confusing crypto terminology</li><li>Fear of making expensive mistakes</li><li>Difficulty finding reliable education sources</li></ul><p id=""><strong id="">Generated Results:</strong></p><ul id=""><li>Marketing messages like "From crypto confusion to Bitcoin confidence in 30 days"</li><li>Professional 4-panel comics showing confused users becoming confident Bitcoin investors</li><li>Complete visual campaigns ready for social media deployment</li></ul><figure class="w-richtext-figure-type-image w-richtext-align-center" data-rt-type="image" data-rt-align="center"><div><img src="https://cdn.prod.website-files.com/668bc58fd794990dd4fcf8fd/686c1f8df3c5ac15feea2f40_AD_4nXdk_LI5vNlaUTj2juPG3teXXpxOUp8c-QjP9hjnt2B-hG6i75fLSpmmMPcXVmCHJP3wDhguDHkj2WpFkLvV6vYgV05rjCLI6hnZ8LgH644YnFDqCgiCpJMJ5d_Zf7au34R9aVWsvw.jpeg" width="auto" height="auto" alt="" loading="auto" id=""></div></figure><p id=""> 			</p><figure class="w-richtext-figure-type-image w-richtext-align-center" data-rt-type="image" data-rt-align="center"><div><img src="https://cdn.prod.website-files.com/668bc58fd794990dd4fcf8fd/686c1f8df3c5ac15feea2f44_AD_4nXedWJtFSCGMVcq7xlwBJrZ0vDj8ChdkCLufrgxgq_nofnzX3GnI7HM4KgZfNxk92BHqtTIb_Z-dCDWtgD332n7EuxFml_SEGOioCe8EINZ3vO-iYy6Jvfnf1qzRqf6Iny_AsvbGeQ.jpeg" width="auto" height="auto" alt="" loading="auto" id=""></div></figure><p>‍</p><figure class="w-richtext-figure-type-image w-richtext-align-center" data-rt-type="image" data-rt-align="center"><div><img src="https://cdn.prod.website-files.com/668bc58fd794990dd4fcf8fd/686c1f8df3c5ac15feea2f54_AD_4nXfONaVd1etH7lGCLfZMVAsqY2HDqItac8RrqGWn6hv74Q94Edn0Fm-LkMGOmQPdEz_pOK44mL414vZldrg7sGjUglTWoLkiHcM65FCzAD7vu3DQbjncxXS8PsCTeFneXuHVbbSyOQ.jpeg" width="auto" height="auto" alt="" loading="auto" id=""></div></figure><p id="">			</p><figure class="w-richtext-figure-type-image w-richtext-align-center" data-rt-type="image" data-rt-align="center"><div><img src="https://cdn.prod.website-files.com/668bc58fd794990dd4fcf8fd/686c1f8df3c5ac15feea2f4a_AD_4nXcPMvXKRwz8nb2YOqtULiyTno06nBGsMcRscRZllZBhwpTbsbM-DII57wYUHyrrypU13r_4ftqM1NM9zjUPA2hiU-RxIzH6-W73wxVzKv2qDt9XcZ5vOoV6cC5TjkryxdtQkk8O.jpeg" width="auto" height="auto" alt="" loading="auto" id=""></div></figure><p>‍</p><p id=""><strong id="">Key Insight:</strong> Even though I used Bitcoin-specific keywords, my workflow adapts to any industry. The AI understands emotional and business dynamics that apply across all sectors.</p><h2 id=""><strong id="">What this workflow delivers</strong></h2><p id="">All this workflow need from you is a product description, and you will receive a complete set of marketing assets in your Google Drive, including:</p><ul id=""><li>A list of <strong id="">ranked, persuasive ad angles</strong> based on real customer conversations.</li><li>Creative prompts for <strong id="">visual ad campaigns</strong>.</li><li><strong id="">Ready-to-post 4-panel comic strip images</strong> that are perfect for social media marketing.</li><li><strong id="">Market Intelligence:</strong> Authentic insights into how customers describe their problems</li></ul><h2 id=""><strong id="">Why my workflow transforms businesses</strong></h2><p id="">I built this system to solve the biggest marketing pain points:</p><p id=""><strong id="">Eliminates Manual Research:</strong> Skip 10-20 hours weekly of manual Reddit browsing <strong id="">Authentic Market Intelligence:</strong> Read customers' actual words, not survey responses <strong id="">Multiple Assets Simultaneously:</strong> Get complete marketing campaigns from one input <strong id="">Scales Personalization:</strong> Each message speaks directly to expressed customer problems <strong id="">Reduces Acquisition Costs:</strong> Target pre-qualified leads already seeking solutions <strong id="">Improves Message-Market Fit:</strong> Marketing grounded in real customer language</p><h2 id=""><strong id="">Universal application across industries</strong></h2><p id="">I designed this workflow to work for any business model:</p><ul id=""><li><strong id="">SaaS:</strong> Find software frustrations and workflow inefficiencies</li><li><strong id="">E-commerce:</strong> Identify shopping problems and product quality concerns</li><li><strong id="">Professional Services:</strong> Locate industry-specific challenges and skill gaps</li><li><strong id="">Physical Products:</strong> Discover product limitations and feature requests</li><li><strong id="">Local Businesses:</strong> Find location-specific complaints and service gaps</li></ul><p id="">Success depends on providing accurate product descriptions and letting AI identify relevant pain points.</p>
+I was scrolling through X the other day and stumbled upon a fascinating post about a new way for companies to find leads on Reddit. It described an automated workflow where a business simply provides a **product description**, and the system intelligently scours Reddit to find users discussing relevant **pain points** and frustrations. By pinpointing these conversations, the tool allows companies to bypass cold outreach and instead engage directly with potential customers who are already describing the exact problems their product solves, essentially serving up a list of highly qualified leads ready to be converted.
+
+To be fair, this sounds like a practical solution to a genuine problem. It's no secret that lead generation is a major headache for marketers, in fact, over [61% say](https://blog.hubspot.com/marketing/lead-generation-tools) it's their biggest challenge. Think about the countless hours wasted on manual research that yields little to no results. Meanwhile, your ideal customers are already gathered on Reddit, a massive community of over [108 million daily active users](https://www.statista.com/statistics/1453133/reddit-quarterly-dau-by-online-status/), talking about the very problems you can solve.
+
+That's why I built this AI workflow to change everything.
+
+## **How the complete workflow works**
+
+This [workflow](https://github.com/Toms-x/automation-projects/tree/main/reddit-ad) is a multi-step pipeline that uses AI to automate market research, copywriting, and creative direction.
+
+![A diagram of the reddit-powered ad generator workflow](/images/blog/reddit-workflow-diagram.png)
+
+1.  **Input and keyword extraction**: The process starts when you submit a simple form with your brand name, website, and product description. An AI model analyzes the description to extract a core **"pain point" keyword** (1-3 words) that a potential customer might use on Reddit.
+2.  **Reddit research and filtering**: The workflow uses this keyword to **search all of Reddit** for relevant posts. It then filters these results, keeping only discussions that have meaningful engagement (more than 2 upvotes) and actual text content.
+3.  **AI relevance classification**: Each filtered post is passed to a second AI agent. This agent reads the post in the context of your product and determines if it's a genuinely relevant conversation where a customer is expressing a need your product can solve.
+4.  **Ad angle generation**: All the verified, relevant Reddit posts are aggregated into a single list. A "copywriter" AI then reads this list of real-world frustrations and generates **10 unique, punchy marketing messages** or ad angles that frame your product as the solution.
+5.  **Creative direction**: The best ad angles are then sent to a "creative director" AI. This agent's job is to write detailed prompts for an image generator, describing a **4-panel comic strip** that visually tells the story of the customer's pain point and the product's solution.
+6.  **Image generation and storage**: Finally, the workflow loops through each comic strip prompt, sending it to **DALL-E 3 to generate the image**. The final 4-panel comic ad is then automatically saved to a designated folder in your Google Drive.
+
+## **My real-world test - ‘bitcoin’ results**
+
+I tested my workflow with Web3/Bitcoin keywords focusing on "crypto confusion" and "Bitcoin basics." The AI found dozens of Reddit posts where people expressed frustration with:
+
+* Confusing crypto terminology
+* Fear of making expensive mistakes
+* Difficulty finding reliable education sources
+
+**Generated Results:**
+
+* Marketing messages like "From crypto confusion to Bitcoin confidence in 30 days"
+* Professional 4-panel comics showing confused users becoming confident Bitcoin investors
+* Complete visual campaigns ready for social media deployment
+
+![A 4-panel comic about becoming a confident Bitcoin investor](/images/1.png)
+
+![A 4-panel comic about Bitcoin investing](/images/blogs/2.png)
+
+![Another comic showing a Bitcoin investment scenario](/images/blogs/3.png)
+
+![A final comic strip about learning to use Bitcoin](/images/blogs/4.png)
+
+**Key Insight:** Even though I used Bitcoin-specific keywords, my workflow adapts to any industry. The AI understands emotional and business dynamics that apply across all sectors.
+
+## **What this workflow delivers**
+
+All this workflow need from you is a product description, and you will receive a complete set of marketing assets in your Google Drive, including:
+
+* A list of **ranked, persuasive ad angles** based on real customer conversations.
+* Creative prompts for **visual ad campaigns**.
+* **Ready-to-post 4-panel comic strip images** that are perfect for social media marketing.
+* **Market Intelligence:** Authentic insights into how customers describe their problems
+
+## **Why my workflow transforms businesses**
+
+I built this system to solve the biggest marketing pain points:
+
+**Eliminates Manual Research:** Skip 10-20 hours weekly of manual Reddit browsing
+**Authentic Market Intelligence:** Read customers' actual words, not survey responses
+**Multiple Assets Simultaneously:** Get complete marketing campaigns from one input
+**Scales Personalization:** Each message speaks directly to expressed customer problems
+**Reduces Acquisition Costs:** Target pre-qualified leads already seeking solutions
+**Improves Message-Market Fit:** Marketing grounded in real customer language
+
+## **Universal application across industries**
+
+I designed this workflow to work for any business model:
+
+* **SaaS:** Find software frustrations and workflow inefficiencies
+* **E-commerce:** Identify shopping problems and product quality concerns
+* **Professional Services:** Locate industry-specific challenges and skill gaps
+* **Physical Products:** Discover product limitations and feature requests
+* **Local Businesses:** Find location-specific complaints and service gaps
+
+Success depends on providing accurate product descriptions and letting AI identify relevant pain points.
