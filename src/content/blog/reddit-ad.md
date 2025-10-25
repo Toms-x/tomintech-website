@@ -15,7 +15,7 @@ That's why I built this AI workflow to change everything.
 
 This [workflow](https://github.com/Toms-x/automation-projects/tree/main/reddit-ad) is a multi-step pipeline that uses AI to automate market research, copywriting, and creative direction.
 
-![A diagram of the reddit-powered ad generator workflow](/images/blog/reddit-workflow-diagram.png)
+![A diagram of the reddit-powered ad generator workflow](/images/blogs/reddit-ad-workflow.png)
 
 1.  **Input and keyword extraction**: The process starts when you submit a simple form with your brand name, website, and product description. An AI model analyzes the description to extract a core **"pain point" keyword** (1-3 words) that a potential customer might use on Reddit.
 2.  **Reddit research and filtering**: The workflow uses this keyword to **search all of Reddit** for relevant posts. It then filters these results, keeping only discussions that have meaningful engagement (more than 2 upvotes) and actual text content.

@@ -17,31 +17,45 @@ export default function ProjectsShowcase() {
   const projects = [
     // Automation Projects
     {
+      id: 7,
+      title: 'Smart Contract Monitoring System',
+      category: 'web3',
+      status: 'completed',
+      description: 'Real-time monitoring system tracking smart contract events and anomalies with automated alerting.',
+      thumbnail: '/images/blogs/smart-contract-dashboard.jpg',
+      techStack: ['Python', 'Web3.py', 'Etherscan API', 'n8n', 'Openai'],
+      metrics: { label: 'Contracts Monitored', value: '2+' },
+      links: [
+        { type: 'demo', label: 'View Demo', url: 'https://dashboard-web-432979189889.us-central1.run.app/' },
+        { type: 'github', label: 'See Code', url: 'https://github.com/Toms-x/smart-contract-monitor' }
+      ]
+    },
+    {
       id: 1,
-      title: 'Automated Social Media Content Pipeline',
+      title: 'AI-powered reddit lead generation and ad creation',
       category: 'automation',
       status: 'completed',
-      description: 'n8n workflow that automatically pulls crypto news, summarizes content, and schedules posts across multiple platforms.',
-      thumbnail: '🔄',
-      techStack: ['n8n', 'Python', 'OpenAI API', 'Twitter API'],
+      description: 'n8n workflow that automatically finds potential customers on Reddit by identifying users discussing pain points your product solves, then generates personalized ad content for direct engagement.',
+      thumbnail: '/images/blogs/reddit-ad-workflow.png',
+      techStack: ['n8n', 'Supabase', 'RSS Feed', 'OpenAI API', 'HTTP Request nodes', 'Reddit API'],
       metrics: { label: 'Time Saved', value: '10 hrs/week' },
       links: [
         { type: 'demo', label: 'View Workflow', url: '#' },
-        { type: 'docs', label: 'Documentation', url: '#' }
+        { type: 'docs', label: 'Documentation', url: 'https://github.com/Toms-x/automation-projects/tree/main/reddit-ad' }
       ]
     },
     {
       id: 2,
-      title: 'Multi-Platform Data Sync Automation',
+      title: 'AI finance research assistant',
       category: 'automation',
       status: 'completed',
-      description: 'Automated workflow synchronizing data between CRM, email marketing, and analytics platforms in real-time.',
-      thumbnail: '⚡',
-      techStack: ['n8n', 'Webhooks', 'REST APIs', 'PostgreSQL'],
-      metrics: { label: 'Integrations', value: '5 platforms' },
+      description: 'n8n workflow that runs every 24 hours, using GPT-4o to automatically gather, analyze, and structure financial data from Reddit discussions, Finnhub news, and Google Trends for comprehensive market intelligence.',
+      thumbnail: '/images/blogs/youtube-writer-workflow.png',
+      techStack: ['n8n', 'Webhooks', 'Finnhub API', 'OpenAI API', 'REST APIs', 'PostgreSQL'],
+      metrics: { label: 'Integrations', value: '10 platforms' },
       links: [
         { type: 'demo', label: 'View Demo', url: '#' },
-        { type: 'github', label: 'See Code', url: '#' }
+        { type: 'github', label: 'See Code', url: 'https://github.com/Toms-x/automation-projects/tree/main/script-generator' }
       ]
     },
     // ML Projects (Coming Soon)
@@ -101,20 +115,6 @@ export default function ProjectsShowcase() {
     },
     // Web3 Projects
     {
-      id: 7,
-      title: 'Smart Contract Monitoring System',
-      category: 'web3',
-      status: 'completed',
-      description: 'Real-time monitoring system tracking smart contract events and anomalies with automated alerting.',
-      thumbnail: '🔐',
-      techStack: ['Python', 'Web3.py', 'Etherscan API', 'n8n'],
-      metrics: { label: 'Contracts Monitored', value: '20+' },
-      links: [
-        { type: 'demo', label: 'View Demo', url: '#' },
-        { type: 'github', label: 'See Code', url: '#' }
-      ]
-    },
-    {
       id: 8,
       title: 'On-Chain Data Visualization Platform',
       category: 'web3',
@@ -133,12 +133,12 @@ export default function ProjectsShowcase() {
     ? projects 
     : projects.filter(p => p.category === activeFilter);
   
-  // 2. CREATE A NEW ARRAY: Only show the projects up to the visibleCount.
+  // only show the projects up to the visibleCount.
   const projectsToShow = filteredProjects.slice(0, visibleCount);
 
   const handleFilterChange = (filterId) => {
     setActiveFilter(filterId);
-    // 4. RESET THE COUNT: When the filter changes, reset to showing 3.
+    // when the filter changes, reset to showing 3.
     setVisibleCount(3);
   };
 
@@ -166,10 +166,10 @@ export default function ProjectsShowcase() {
         
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-4xl font-bold text-slate-100 mb-4">
             My Projects
-          </h1>
-          <p className="text-xl text-slate-400 max-w-3xl mx-auto">
+          </h2>
+          <p className="text-lg text-slate-300 mb-12 max-w-3xl mx-auto">
             Explore my diverse portfolio across key areas of data science, automation, and blockchain analytics
           </p>
         </div>
@@ -202,8 +202,12 @@ export default function ProjectsShowcase() {
                 className="bg-slate-800 rounded-lg border border-slate-700 hover:border-slate-500 transition-all duration-300 hover:shadow-xl hover:shadow-slate-900/50 overflow-hidden group"
               >
                 {/* ... Card content remains the same ... */}
-                <div className="bg-gradient-to-br from-slate-700 to-slate-800 p-8 flex items-center justify-center border-b border-slate-700">
-                  <span className="text-6xl">{project.thumbnail}</span>
+                <div className="bg-gradient-to-br from-slate-700 to-slate-800 p-1 flex items-center justify-center border-b border-slate-700">
+                  <img
+                    src={project.thumbnail}
+                    alt={`${project.title} thumbnail`}
+                    className="w-full aspect-video object-cover"
+                  />
                 </div>
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-3">

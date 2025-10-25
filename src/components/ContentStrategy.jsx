@@ -12,17 +12,17 @@ export default function ContentStrategy() {
       role: 'Crypto Content Writer',
       period: 'July 2021 - April 2024',
       color: 'from-blue-600 to-blue-400',
-      icon: '📚',
-      mainAchievement: '15+ In-Depth Guides on Web3 Fundamentals',
+      icon: '/images/logos/beincrypto.jpeg',
+      mainAchievement: 'Generated over 450k+ organic views',
       metric: '100+ Articles Published',
-      description: 'Researched and authored comprehensive long-form content educating users about Web3 and cryptocurrency.',
+      description: 'Authored 100+ in-depth guides on Web3. Several articles secured SERP features within 3 months, driving 136,900 monthly organic visitors valued at $289,700 in equivalent Google Ads spend (Semrush).',
       highlights: [
         'Developed standardized data representation framework',
         'Improved user visibility into key performance metrics',
         'Covered diverse crypto topics for broad audience reach'
       ],
       links: [
-        { label: 'View Article Portfolio', url: '#', type: 'primary' }
+        { label: 'View Article Portfolio', url: 'https://beincrypto.com/author/ayotomiwa_oladotun/', type: 'primary' }
       ]
     },
     {
@@ -31,8 +31,8 @@ export default function ContentStrategy() {
       role: 'Content Marketer & Copywriter',
       period: 'Nov 2022 - Mar 2024',
       color: 'from-purple-600 to-purple-400',
-      icon: '📱',
-      mainAchievement: '200+ Social Media Posts & Campaigns',
+      icon: '/images/logos/lbank.png',
+      mainAchievement: '200+ Social media posts & campaigns',
       metric: '40%+ Engagement Growth',
       description: 'Produced high-quality daily content and creative social media campaigns driving community growth.',
       highlights: [
@@ -48,11 +48,11 @@ export default function ContentStrategy() {
     },
     {
       id: 'dopamine',
-      name: 'Dopamine App',
-      role: 'Content Marketer & Product Manager',
+      name: 'Web3 Intelligence',
+      role: 'Community & Product Manager',
       period: 'Feb 2022 - May 2024',
       color: 'from-pink-600 to-pink-400',
-      icon: '🚀',
+      icon: '/images/logos/wbi.png',
       mainAchievement: 'End-to-End Product & Website Management',
       metric: 'Website Performance Optimized',
       description: 'Managed all aspects of company operations including website, user guides, customer support, and feature testing.',
@@ -101,7 +101,11 @@ export default function ContentStrategy() {
                   {/* Icon & Title */}
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center gap-3">
-                      <span className="text-3xl">{company.icon}</span>
+                      <img
+                        src={company.icon}
+                        alt={`${company.name} logo`}
+                        className="w-10 h-10 rounded-full object-contain bg-white p-1 flex-shrink-0"
+                      />
                       <div>
                         <h2 className="text-2xl font-bold text-white">{company.name}</h2>
                         <p className="text-sm text-slate-400">{company.period}</p>

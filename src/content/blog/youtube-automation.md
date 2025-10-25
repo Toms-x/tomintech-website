@@ -18,7 +18,7 @@ All this busy work was robbing me of the one thing that truly matters on YouTube
 
 I designed a multi-stage automated pipeline in n8n that acts as my [research and production assistant](https://github.com/Toms-x/automation-projects/tree/main/script-generator). Here’s a technical and logical breakdown of how it works.
 
-![YouTube personal research assistant workflow](/blogs/youtube-assistant-workflow.png)
+![YouTube personal research assistant workflow](/images/blogs/youtube-writer-workflow.png)
 
 ### 1. The content research engine
 
@@ -26,7 +26,7 @@ This workflow runs automatically every 24 hours, centered around a GPT-4o powere
 
 #### - Reddit research tool:
 
-![A diagram of the Reddit research tool workflow](/images/blogs/reddit-research-tool.png)
+![A diagram of the Reddit research tool workflow](/images/blogs/reddit-research-workflow.png)
 
 This sub-workflow is designed to gather and rank the most engaging posts from three finance-related subreddits: **r/StockMarket**, **r/personalfinance**, and **r/Bitcoin**. It fetches the "top" posts from each community and then applies a custom scoring logic to every post. This "weighted score" prioritizes recent posts with a high number of both upvotes and comments, aiming to identify the most relevant and trending discussions.
 
