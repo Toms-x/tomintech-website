@@ -1,0 +1,55 @@
+---
+// src/components/SeoReportTable.astro
+import seoReports from '../data/seo-reports.json'; // 1. Astro imports the JSON report directly
+
+// Sort reports by score for a better dashboard view (highest score first)
+const sortedReports = seoReports.sort((a, b) => b.seoScore - a.seoScore);
+
+// Simple helper function to color the score
+const scoreColor = (score: number) => {
+    if (score >= 85) return 'text-green-600 font-bold';
+    if (score >= 60) return 'text-yellow-600 font-bold';
+    return 'text-red-600 font-bold';
+};
+---
+
+<div class="space-y-8 p-6 bg-gray-50 rounded-lg shadow-xl max-w-5xl mx-auto my-8">
+    <h2 class="text-3xl font-extrabold text-gray-900 border-b pb-2 flex items-center">
+        📊 SEO Optimization Dashboard <span class="ml-3 text-sm font-normal text-gray-500">({seoReports.length} Articles Analyzed)</span>
+    </h2>
+
+    {sortedReports.map((report) => (
+        <div class="border-l-4 border-blue-600 pl-4 py-3 bg-white shadow-md rounded-lg transition hover:shadow-lg">
+            <h3 class="text-xl font-bold text-blue-700">
+                <a href={`/blog/${report.slug}`} class="hover:underline" target="_blank">
+                    {report.title}
+                </a>
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">
+                Target Keyword: **{report.targetKeyword}**
+            </p>
+
+            <div class="mt-4 flex items-center justify-between border-t pt-3">
+                <p class="text-lg">
+                    Overall ML Score: <span class={scoreColor(report.seoScore)}>{report.seoScore}%</span>
+                </p>
+                <span class={`px-3 py-1 text-xs font-medium rounded-full ${report.seoScore >= 85 ? 'bg-green-100 text-green-800' : report.seoScore >= 60 ? 'bg-yellow-100 text-yellow-800' : 'bg-red-100 text-red-800'}`}>
+                    {report.seoScore >= 85 ? 'Optimized' : report.seoScore >= 60 ? 'Needs Attention' : 'Urgent Re-write'}
+                </span>
+            </div>
+
+            <div class="mt-4">
+                <h4 class="text-md font-semibold text-gray-700">Actionable Suggestions:</h4>
+                <ul class="mt-2 space-y-2 text-sm text-gray-600 list-disc pl-5">
+                    {report.suggestions.length > 0 ? (
+                        report.suggestions.map((suggestion) => (
+                            <li set:html={suggestion} /> // set:html allows the bold/emoji from Python to render
+                        ))
+                    ) : (
+                        <li class="text-green-600">🎉 Excellent! The ML model found no major suggestions.</li>
+                    )}
+                </ul>
+            </div>
+        </div>
+    ))}
+</div>
