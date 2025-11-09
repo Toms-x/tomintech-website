@@ -74,14 +74,16 @@ export default function ProjectsShowcase() {
     },
     {
       id: 4,
-      title: 'NFT Collection Rarity Analyzer',
+      title: 'SEO Content Automation Dashboard',
       category: 'ml',
-      status: 'coming-soon',
-      description: 'ML model analyzing NFT traits to predict rarity scores and potential value using computer vision and clustering algorithms.',
+      status: 'in-progress',
+      description: 'A custom Machine Learning pipeline (Python/NLTK) integrated into the Netlify build process to automate SEO optimization suggestions for content on this website.',
       thumbnail: '🎨',
-      techStack: ['Python', 'OpenCV', 'Scikit-learn', 'Keras'],
-      metrics: { label: 'Status', value: 'Planning' },
-      links: []
+      techStack: ['Python', 'NLTK', 'Astro', 'Tailwind CSS', 'Netlify CI/CD'],
+      metrics: { label: 'Articles Analyzed', value: '6+' },
+      links: [
+        { type: 'live', label: 'View Live Dashboard', url: '/seo-dashboard' }
+      ]
     },
     // Analytics Projects
     {
