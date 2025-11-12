@@ -1,3 +1,6 @@
 python-frontmatter
 textstat
 nltk
+google-api-python-client
+google-analytics-data
+google-auth
