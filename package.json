@@ -4,9 +4,10 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "npm run seo:analyze && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "seo:analyze": "python3 scripts/seo_optimizer.py"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.1",
